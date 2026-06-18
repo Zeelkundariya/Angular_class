@@ -6,4 +6,10 @@ import { Component } from '@angular/core';
   templateUrl: './login.html',
   styleUrl: './login.css',
 })
-export class Login {}
+export class Login {
+  name="Zeel Kundariya has Login the form"
+
+  getName() {
+    return "Zeel Kundariya studing in codinggita";
+  }
+}

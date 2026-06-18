@@ -9,5 +9,5 @@ import {Signup} from './signup/signup'
   styleUrl: './app.css'
 })
 export class App {
-  protected readonly title = signal('first-practical');
-}
+  name = "Zeel Kundariya";
+}  
