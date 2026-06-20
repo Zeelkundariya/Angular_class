@@ -3,7 +3,7 @@
 <signup></signup>
 <h1>{{ name }}</h1> -->
 
-
+<!-- <h1>{{nameDisplay(13,56)}}</h1> -->
 
 <input type="text" placeholder="name" [(ngModel)] = "name"/>
 <h1>{{name}}</h1>
@@ -14,3 +14,7 @@
         {{ name1.name }}, {{ name1.city }}
     </li>
 </ul>
+
+<h1 *ngIf="show" >The value show is :{{show}}</h1>
+
+<button (click) = "changeShow()"> Click me</button>

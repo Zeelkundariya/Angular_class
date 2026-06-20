@@ -33,4 +33,19 @@ export class App {
       city: "Bhavnagar"
     }
   ];
+show= false;
+changeShow(){
+  if(this.show == true){
+    this.show = false;
+  }else{
+    this.show = true
+  }
 }
+
+  // nameDisplay(a:number,b:number){
+//   let name = 13;
+//   this.name = true;
+//   return a+b;
+// }
+}
+
