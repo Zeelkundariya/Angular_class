@@ -7,3 +7,10 @@
 
 <input type="text" placeholder="name" [(ngModel)] = "name"/>
 <h1>{{name}}</h1>
+
+
+<ul>
+    <li *ngFor="let name1 of studentDetails">
+        {{ name1.name }}, {{ name1.city }}
+    </li>
+</ul>
