@@ -42,6 +42,17 @@ changeShow(){
   }
 }
 
+
+track = 0;
+
+changeTrack(){
+  if(this.track == 4){
+    this.track = 0;
+  }else{
+    this.track = this.track +1;
+  }
+}
+
   // nameDisplay(a:number,b:number){
 //   let name = 13;
 //   this.name = true;

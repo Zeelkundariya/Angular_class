@@ -16,5 +16,14 @@
 </ul>
 
 <h1 *ngIf="show" >The value show is :{{show}}</h1>
-
 <button (click) = "changeShow()"> Click me</button>
+
+
+
+<p *ngIf="track == 0 " style="color: aquamarine;">the value of track is :0</p>
+<p *ngIf="track == 1" style="color: blueviolet;">the value of track is :1</p>
+<p *ngIf="track == 2 " style="color: red;">the value of track is :2</p>
+<p *ngIf="track ==  3 " style="color: yellow;">the value of track is :3</p>
+<p *ngIf="track == 4" style="color: green;">the value of track is :4</p>
+
+<button (click) = "changeTrack()">Track Me</button>
